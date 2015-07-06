@@ -1,1 +1,41 @@
-/* You'll probably want to add some styles here */
+/*
+ * Marcus Pham
+ * 
+ * July 6, 2015
+ * Stylesheet for police shooting map webpage 
+ */
+
+body {
+	text-align: center;
+	font-family: sans-serif;
+}
+
+#container {
+	margin: 0 auto;
+	border: 2px solid red;
+	box-shadow: 0px 5px 5px gray;
+	width: 90%;
+	height: 500px;
+}
+
+p {
+	opacity: 0.5;
+}
+
+p:hover {
+	opacity: 1.0;
+}
+
+#red {
+	color: red;
+}
+
+a {
+	text-decoration: none;
+	color: #FF8100;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #DF7000;
+}
